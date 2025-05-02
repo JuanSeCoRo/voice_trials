@@ -1,17 +1,6 @@
 import speech_recognition as sr
 import pyttsx3
 
-"""def trial():
-    mic  = sr.Microphone()
-    pickup = sr.Recognizer()
-
-    with mic as audio_file:
-        print("Please Talk")
-        pickup.adjust_for_ambient_noise(audio_file)
-        audio = pickup.listen(audio_file)
-        print("Voice to text conversion...")
-        print(f"You said: {pickup.recognize_google(audio, language = "en-US")}")"""
-
 def speech_en():
     mic  = sr.Microphone()
     pickup = sr.Recognizer()
